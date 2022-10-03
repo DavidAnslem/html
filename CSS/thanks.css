@@ -1,0 +1,89 @@
+*{
+	
+	
+}
+BODY{
+	PADDING: 0pX;
+	MARGIN: 0PX;
+	color:white;
+	position:relative;
+	font-family:Baskerville Old Face,sans-serif, times new romans;
+	background-color:#C09FDF;
+}
+
+nav{
+	background-color:#452266;
+	position:fixed;
+	z-index:1;
+	width:100%;
+	margin-top:0px;
+	display:table;
+}
+.man{
+	PADDING-top:0pX;
+	MARGIN: 0PX;
+	word-spacing: 10px;
+	display:inline-block;
+	text-align:right;
+	float:right;
+	margin-right:30px;
+}
+
+.lamp{
+	display:inline-block;
+	max-width:100px;
+	background-color:#452266;
+	padding-left:20px;
+}
+
+
+.lamp a{
+	text-decoration:none;
+	text-transform:capitalize;
+	color:white;
+	transition: 1s, color;
+	display:inline-block;
+	height:28px;
+	padding-left:7px;
+	padding-right:7px;
+	padding-top:3px;
+	margin-bottom:-1px;
+}
+nav div a{
+	text-decoration:none;
+	text-transform:capitalize;
+	color:white;
+	transition: 1s, color;
+	display: block;
+	height:28px;
+	padding-left:7px;
+	padding-right:7px;
+	margin-bottom:-1px;
+	padding-top:3px;
+}
+
+
+nav div a:hover,.lamp a:hover{
+	color:blue;
+	background-color:#C09FDF;
+}
+.d{
+	background-color:black;
+	height:2.6%;
+	position:absolute;
+	bottom:0px;
+	top:115%;
+	width:100%;
+	margin-bottom:-10px;
+	z-index:-1;
+	background-color:#452266;
+	margin-top:0px;
+	text-align:center;
+}
+p{
+	margin-top:0px;
+	padding:150px;
+	font-family:Chaparral pro light;
+	font-size:100px;
+	color:black;
+}
